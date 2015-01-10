@@ -1,4 +1,4 @@
-C:\WINDOWS\system32\drivers\etc\host
+﻿C:\WINDOWS\system32\drivers\etc\host
 add :
 #Google主页
 203.208.46.146 www.google.com
@@ -707,3 +707,7 @@ add :
 64.233.169.98    gwt.googlesource.com
 #google source end
 #google hosts 2015 end
+
+经验证，只要添加下面两行就可以。
+203.208.46.146 dl.google.com
+203.208.46.146 dl-ssl.google.com
